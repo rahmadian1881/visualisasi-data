@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 st.title("Bar Chart")
 st.write("Kelompok: 12")
 st.markdown("""
-            1. Muhammad Nur Faqih (0110122007)
-            2. Nasywa Dhiya Ulhaq (0110221031)
-            3. July Ismail (0110221024)
+            1. Rahma Dian Nurhikma (0110222082)
+            2. Alma Nur Fajriyah (011022222)
+            3. Tria Maulida Sari (0110222300)
             """)
 # Data dummy utama
 suhu = [20, 22, 24, 26, 28, 30, 32, 34, 36]
@@ -131,4 +131,5 @@ elif option == "Kustomisasi Scatter Plot":
 elif option == "Multiple Scatter Plot":
     multiple_scatter()
 elif option == "Analisis Scatter Plot":
+
     scatter_3_variabel()
